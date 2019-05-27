@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>Skeleton Tutorial</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -32,6 +32,8 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- Hero -->
   <div class="full-height hero">
     <div class="container">
       <div class="row">
@@ -48,6 +50,7 @@
       </div>
     </div>
   </div>
+  <!-- Info -->
   <div class="full-height" id="more">
     <div class="container">
       <div class="row">
@@ -67,7 +70,16 @@ CSS Classes that you can use for your website.&lt;/p&gt;
       </div>
       <div class="row">
         <div class="one-half column">
-          
+          <h4>How to get started</h4>
+          <p>All you have to do is download Skeleton. You can find the links to download Skeleton here:</p>
+          <a href="https://getskeleton.com">getskeleton.com</a><br>
+          <a href="https://github.com/dhg/Skeleton">Skeleton Github</a><br><br>
+          <p>Or for the more experienced of you;</p>
+          <a href="https://github.com/dhg/Skeleton/releases">Skeleton Versions</a>
+          <br>
+          <br>
+          <p>After you've downloaded the Skeleton zip file, unpack it in your preffered location.</p>
+          <p>In the unzipped folder, you'll find the <code>index.html</code> file. This is the file you'll have to edit to make your website. Ofcourse you can remove this one, and make your own <code>.html</code> or <code>.php</code> file.</p>
         </div>
       </div>
     </div>
@@ -79,7 +91,7 @@ CSS Classes that you can use for your website.&lt;/p&gt;
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
+        document.querySelector(this.getAttribute('href')).scrollIntoView({ 
             behavior: 'smooth'
         });
       });
