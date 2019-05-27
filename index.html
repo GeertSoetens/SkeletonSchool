@@ -21,6 +21,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/index.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -31,15 +32,54 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+  <div class="full-height hero">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column">
+          <h4>Skeleton</h4>
+          <p>This site will be an example of what Skeleton can mean for you and your projects.</p>
+          <a href="#more" class="button">Learn More</a>
+          <hr>
+          <p>Please check this out on:</p>
+          <div id="browser-icons">
+            <img class="icon 1" src="images/chrome.png" alt="Chrome" title="Chrome"><img class="icon 2" src="images/firefox-logo.png" alt="Firefox" title="Firefox"><img class="icon 3" src="images/iconfinder_opera_317734.png" alt="Opera" title="Opera">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="full-height" id="more">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column">
+          <h4>What does Skeleton do?</h4>
+          <p>Skeleton is <i>not</i> a framework. It is a CSS boilerplate that allows you to quickly set up beautiful CSS projects. It gives you a few useful and powerful CSS Classes that you can use for your website.</p>
+        </div>
+        <div class="one-half column">
+          <pre><code>
+&lt;h4&gt;What does skeleton do?&lt;/h4&gt;
+&lt;p&gt;Skeleton is &lt;i&gt;not&lt;i&gt; a framework. It is a CSS 
+boilerplate that allows you to quickly set up beautiful 
+CSS projects. It gives you a few useful and powerful 
+CSS Classes that you can use for your website.&lt;/p&gt;
+          </code></pre>
+        </div>
       </div>
     </div>
   </div>
 
+
+  <script type="text/javascript">
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+      });
+    });
+  </script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

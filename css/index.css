@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.full-height {
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.hero {
+    background-image: url("../images/brushed.png");
+}
+
+.icon {
+    width: 20px;
+    margin-right: 10px;
+}
+
+#browser-icons {
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.iphone-mockup {
+    width: 300px;
+    margin-left: 20%;
+}
