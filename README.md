@@ -36,13 +36,16 @@ However, that doesn't mean Skeleton is useless! As I've mentioned before, skelet
 
 Skeleton is a boilerplate, which means that you can build whatever you want on it. Because it's a boilerplate, it's built completely out of pre-made classes. Here are the most useful ones;
 
-*Container*
+**Container**
+
 This speaks for itself, it's a wrapper/container for content. Your website is usually made out of containers with content
 
-*Row*
+**Row**
+
 This is defines a column in the grid, this should be above most grid elements, below this come the columns.
 
-*Column*
+**Column**
+
 Now it's going to get a little more in depth. There's multiple ways to use columns on your Skeleton project. Skeleton works with a 12 column grid. This means that in every row there are 12 columns you can make use of. But skeleton implements this very well. To create, for example, 1/11 column, you write:
 
 ```
@@ -63,12 +66,14 @@ Now it's going to get a little more in depth. There's multiple ways to use colum
 </div
 ```
 
-*Buttons*
+**Buttons**
+
 Skeleton has pre-made button classes for you. These are left relatively simple, because Skeleton is a boilerplate, but they can help you set up the base for your site.
 
 There's 2 button classes, you have `.button` and `.button-primary`. The non-primary one is transparent. Primary is a light-ish blue, it certainly jumps out a lot more than the other one, and should be used to grab peoples' attention.
 
-*Code*
+**Code**
+
 Skeleton has some very nice code block styling (altough in my experience, a little broken). To put text in code, simply put a `<code>` element around the text, this can be inside a `p` element, or wherever really. Don't forget to close it though!
 
 You can also make code blocks. To do that, put `<pre>` before `<code>`. But be careful, as everything in a `<pre>` element will preserve spaces that are in your code! This means that if your code is indented to a certain degree, it'll show up on your website.
