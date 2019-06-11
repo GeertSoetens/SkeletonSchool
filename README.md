@@ -79,5 +79,5 @@ Skeleton has some very nice code block styling (altough in my experience, a litt
 You can also make code blocks. To do that, put `<pre>` before `<code>`. But be careful, as everything in a `<pre>` element will preserve spaces that are in your code! This means that if your code is indented to a certain degree, it'll show up on your website.
 
 ## Conclusion
-That's about all you need to know about skeleton to get Started. I hope it's helped you, and if you want to know more, you can always check out the (skeleton github page)[https://github.com/dhg/Skeleton] or (getskeleton.com)[http://getskeleton.com/]
+That's about all you need to know about skeleton to get Started. I hope it's helped you, and if you want to know more, you can always check out the [skeleton github page](https://github.com/dhg/Skeleton) or [getskeleton.com](http://getskeleton.com/)
 
