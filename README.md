@@ -1,10 +1,10 @@
 # SkeletonSchool
 
-In this document I'm going to teach you all you need to know about Skeleton, what it can do and how you can get started as soon as possible!
+In this document I'm going to teach you all you need to know about Skeleton, what it can do and how you can get started as soon as possible! I'm explaining this assuming you have a very basic understanding of HTML and CSS.
 
 ## How to get started
 
-To get started with this small tutorial I highly reccomend you check out the small website I made to explain to you how to get started, aswell as being a tiny example site for you to check out! You can find it at: http://geertsoetens.nl/skeleton/
+To get started with this small tutorial I highly recommend you check out the small website I made to explain to you how to get started, aswell as being a tiny example site for you to check out! You can find it at: http://geertsoetens.nl/skeleton/
 
 There you'll find how to download skeleton, as well as showing you what it can do in a small example. As you might've read on that page, the real deal is here.
 
@@ -12,13 +12,13 @@ There you'll find how to download skeleton, as well as showing you what it can d
 
 If you're already a relatively experienced developer, this is not necessary. At that point you already know how to quickly set up a small development enviroinment.
 
-If you're brand new, I reccomend sticking around as I'll quickly get you up to date on how to set up and use a git environment, which is highly useful for developers, especially colaborative projects.
+If you're brand new, I recommend sticking around as I'll quickly get you up to date on how to set up and use a git environment, which is highly useful for developers, especially colaborative projects.
 
 First, start a Github project. You can do that on this site, first by signing up, and then creating a new project. You can make this project private if you wish, but that'll cost you money. I recommend making it public. During the process of creating a project I also recommend creating a `.md` file. A `.md` file is the document you're reading now. It's your source of information about the project, or can even be you trying to get people to try it! During the process of creating a new project, you'll also get the chance to choose a license. This isn't necessary, but Skeleton allows you to use it for whatever purposes you want, so go crazy.
 
 After you've created the project, you'll be looking at a nice empty project! Save for the `.md` and license file you might have added. If you have a folder where you stick your projects, now's the chance! Open it and get ready for what magic I'm about to show you.
 
-Open your preffered bash in your projects folder. If you do not know what this is, and you're using windows, simply go to the top left of your window and click "file". There you'll see an option "Open Windows Powershell". Click that. It'll open a handy little bash inside your folder. Now go back to your github project online. There should be a "clone or download" option at the right of your project, above the file browser. Click that, and copy the URL that shows up.
+Open your preferred bash in your projects folder. If you do not know what this is, and you're using windows, simply go to the top left of your window and click "file". There you'll see an option "Open Windows Powershell". Click that. It'll open a handy little bash inside your folder. Now go back to your github project online. There should be a "clone or download" option at the right of your project, above the file browser. Click that, and copy the URL that shows up.
 
 Now's time for the git magic! Pay attention, now it'll get technical. Go back to the powershell window you opened. Type `git clone [url]`, replace `[url]` with the url you just copied. Press enter. Wait a few seconds... And voila! You've got your git project downloaded! But that's not all! Because it's cloned you can update the online page with whatever updates you make locally and vice versa. How you'll do that I'll tell you in a second, patience! (Don't close your powershell or bash yet, you're gonna need it).
 
@@ -62,3 +62,17 @@ Now it's going to get a little more in depth. There's multiple ways to use colum
     </div>
 </div
 ```
+
+*Buttons*
+Skeleton has pre-made button classes for you. These are left relatively simple, because Skeleton is a boilerplate, but they can help you set up the base for your site.
+
+There's 2 button classes, you have `.button` and `.button-primary`. The non-primary one is transparent. Primary is a light-ish blue, it certainly jumps out a lot more than the other one, and should be used to grab peoples' attention.
+
+*Code*
+Skeleton has some very nice code block styling (altough in my experience, a little broken). To put text in code, simply put a `<code>` element around the text, this can be inside a `p` element, or wherever really. Don't forget to close it though!
+
+You can also make code blocks. To do that, put `<pre>` before `<code>`. But be careful, as everything in a `<pre>` element will preserve spaces that are in your code! This means that if your code is indented to a certain degree, it'll show up on your website.
+
+## Conclusion
+That's about all you need to know about skeleton to get Started. I hope it's helped you, and if you want to know more, you can always check out the (skeleton github page)[https://github.com/dhg/Skeleton] or (getskeleton.com)[http://getskeleton.com/]
+
