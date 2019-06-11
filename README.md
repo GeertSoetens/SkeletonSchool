@@ -32,3 +32,33 @@ Fortunately, using skeleton is the easiest part of this entire project! Skeleton
 
 However, that doesn't mean Skeleton is useless! As I've mentioned before, skeleton is great to quickly set up responsive websites, it's incredibly useful that way. I'll tell you about a few features that it has here, and hopefully you can get started from there!
 
+## Skeleton's premade classes
+
+Skeleton is a boilerplate, which means that you can build whatever you want on it. Because it's a boilerplate, it's built completely out of pre-made classes. Here are the most useful ones;
+
+*Container*
+This speaks for itself, it's a wrapper/container for content. Your website is usually made out of containers with content
+
+*Row*
+This is defines a column in the grid, this should be above most grid elements, below this come the columns.
+
+*Column*
+Now it's going to get a little more in depth. There's multiple ways to use columns on your Skeleton project. Skeleton works with a 12 column grid. This means that in every row there are 12 columns you can make use of. But skeleton implements this very well. To create, for example, 1/11 column, you write:
+
+```
+<!-- Wrapping the content in a centered container -->
+<div class="container">
+  
+  <!-- You use the grid by starting a row -->
+  <div class="row">
+  
+  <!-- divs inside a row should always be columns -->
+    <div class="one column">
+      <!-- This is 1/12th of a row -->
+    </div>
+    
+    <div class="eleven columns">
+      <!-- this is 11/12th of a row -->
+    </div>
+</div
+```
